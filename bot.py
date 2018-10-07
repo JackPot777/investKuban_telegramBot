@@ -4,7 +4,7 @@ import constants, os
 import botan
 from telebot import types
 
-bot = telebot.TeleBot(constants.token)
+bot = telebot.TeleBot(constants.token) # впишите свой токен
 
 @bot.message_handler(commands=["start"])
 def start(c):
